@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Veyra X200 AI Glasses</title>
+  <meta name="description" content="Explore the Veyra X200 AI Glasses and their everyday features.">
+  <style>
+    :root{--ink:#111214;--muted:#62676f;--line:#e7e8ea;--soft:#f6f7f8;--accent:#1e5bff;--max:1180px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;color:var(--ink);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#fff;line-height:1.55}
+    a{color:inherit;text-decoration:none}
+    header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    .nav{max-width:var(--max);height:68px;margin:auto;padding:0 28px;display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:760;letter-spacing:.2em;font-size:1.05rem}
+    .nav span:last-child{color:var(--muted);font-size:.95rem}
+    main{overflow:hidden}
+    .hero{max-width:var(--max);margin:auto;padding:64px 28px 74px;display:grid;grid-template-columns:1.25fr .75fr;gap:56px;align-items:center;min-height:calc(100vh - 68px)}
+    .product-image{width:100%;display:block;object-fit:contain;mix-blend-mode:multiply}
+    .eyebrow{font-size:.78rem;font-weight:750;letter-spacing:.17em;text-transform:uppercase;color:var(--accent);margin:0 0 18px}
+    h1{font-size:clamp(3rem,6vw,5.8rem);line-height:.92;letter-spacing:-.07em;margin:0 0 26px;font-weight:780}
+    .intro{font-size:1.2rem;color:var(--muted);max-width:34rem;margin:0 0 34px}
+    .cta{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 24px;border:1px solid var(--ink);border-radius:999px;font-weight:680;transition:.2s ease}
+    .cta:hover,.cta:focus-visible{background:var(--ink);color:#fff;outline:none}
+    .section{padding:92px 28px}
+    .section.soft{background:var(--soft)}
+    .inner{max-width:var(--max);margin:auto}
+    .section-head{max-width:650px;margin-bottom:48px}
+    h2{font-size:clamp(2rem,4vw,3.5rem);line-height:1.05;letter-spacing:-.045em;margin:0 0 16px}
+    .section-head p{color:var(--muted);font-size:1.08rem;margin:0}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:30px;min-height:220px}
+    .icon{width:42px;height:42px;border-radius:12px;background:#edf2ff;color:var(--accent);display:grid;place-items:center;font-weight:800;margin-bottom:30px}
+    .card h3{font-size:1.16rem;margin:0 0 10px}
+    .card p{color:var(--muted);margin:0}
+    .study-note{max-width:var(--max);margin:0 auto 72px;padding:0 28px}
+    .study-note p{margin:0;padding:30px 34px;border:1px solid var(--line);border-radius:16px;background:var(--soft);font-size:clamp(1.25rem,2vw,1.5rem);line-height:1.45;font-weight:750;text-align:center}
+    footer{border-top:1px solid var(--line);padding:30px 28px;color:var(--muted)}
+    footer div{max-width:var(--max);margin:auto;display:flex;justify-content:space-between;gap:20px;font-size:.9rem}
+    @media(max-width:800px){.hero{grid-template-columns:1fr;gap:18px;padding-top:35px;min-height:auto}.hero-copy{order:-1}.product-image{max-height:420px}.features{grid-template-columns:1fr}.section{padding:70px 22px}.nav{padding:0 22px}footer div{display:block}.nav span:last-child{display:none}}
+  </style>
+</head>
+<body>
+  <header><nav class="nav" aria-label="Main navigation"><a class="brand" href="#top">VEYRA</a><span>X200 AI Glasses</span></nav></header>
+  <main id="top">
+    <section class="hero">
+      <div><img class="product-image" src="assets/veyra-x200.png" alt="Black Veyra X200 AI Glasses shown from the front and side"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Veyra X200</p>
+        <h1>AI assistance, within view.</h1>
+        <p class="intro">Smart glasses designed to deliver useful information, hands-free communication, and everyday guidance through a familiar eyewear form.</p>
+        <a class="cta" href="#features">Explore the features</a>
+      </div>
+    </section>
+    <section class="section soft" id="features">
+      <div class="inner">
+        <div class="section-head"><h2>Designed for everyday tasks.</h2><p>The X200 brings core AI functions together in a lightweight, wearable format.</p></div>
+        <div class="features">
+          <article class="card"><div class="icon" aria-hidden="true">01</div><h3>Real-time assistance</h3><p>Ask questions and receive contextual information while keeping your hands available for the task in front of you.</p></article>
+          <article class="card"><div class="icon" aria-hidden="true">02</div><h3>Voice interaction</h3><p>Use natural voice commands to access information, manage simple requests, and stay connected while on the move.</p></article>
+          <article class="card"><div class="icon" aria-hidden="true">03</div><h3>Everyday design</h3><p>A classic black frame integrates cameras, microphones, speakers, and processing hardware into a familiar silhouette.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="study-note" aria-label="Study completion instructions">
+      <p>Thank you for reviewing the detailed information about the product. Please close this browser window and return to the study to complete the remaining tasks.</p>
+    </section>
+  </main>
+  <footer><div><span>© 2026 Veyra</span><span>Veyra X200 AI Glasses</span></div></footer>
+</body>
+</html>
